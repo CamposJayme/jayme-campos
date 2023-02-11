@@ -9,6 +9,7 @@
 
 header {
     padding: 15px 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.536);
 }
 
 .header-container {
@@ -16,11 +17,11 @@ header {
     max-width: 1024px;
     padding: 0 2%;
     margin: 0 auto;
+    justify-content: space-between;
 }
 
 .menu {
     text-align: right;
-    width: 80%;
 }
 
 .menu nav a {
