@@ -56,7 +56,7 @@ SECTION MAIN CONTENT
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 70px 0;
+    padding: 62.8px 0;
 } 
 
 .main-container {
@@ -94,6 +94,7 @@ SECTION MAIN CONTENT
 
 .sobre {
     display: flex;
+    flex-wrap: wrap;
 }
 
 .content {
@@ -101,5 +102,15 @@ SECTION MAIN CONTENT
     width: 24%;
     margin: 12% 1% 0 0;
     padding: 50px 20px;
+    border-radius: 8px;
+}
+
+.content h2 {
+    text-align: center;
+    margin: 10px 0;
+}
+
+.content p {
+    text-align: justify;
 }
 
