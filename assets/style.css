@@ -85,10 +85,16 @@ SECTION MAIN CONTENT
 }
 
 .foto {
-    width: 180px;
+    width: 220px;
     height: 200px;
     background-color: rgba(99, 97, 97, 0.859);
     margin: 4% auto;
+}
+
+.foto img {
+    width: 250px;
+    height: 210px;
+    border: 2px solid white;
 }
 
 .principal h2 {
@@ -100,7 +106,7 @@ SECTION MAIN CONTENT
     margin: 10px 0;
 }
 
-.sobre {
+#sobre {
     display: flex;
     flex-wrap: wrap;
     margin: auto;
@@ -135,15 +141,11 @@ SECTION - PRINCIPAL
     margin: 0 auto;
 }
 
-.principal-intro {
+#habilidades {
     text-align: center;
 }
 
-.principal-intro h2 {
-    font-size: 32px;
-}
-
-.principal-intro p {
+#habilidades p {
      margin: 10px 0;
 }
 
