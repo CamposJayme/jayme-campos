@@ -56,6 +56,10 @@ header {
     color: white;
 }
 
+#btn-mobile {
+    display: none;
+}
+
 /*
 SECTION MAIN CONTENT
 */
