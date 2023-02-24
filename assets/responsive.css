@@ -12,12 +12,29 @@
     }
 }
 
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 600px) {
     #btn-mobile {
         display: block;
     }
 
     .menu {
         display: none;
+    }
+
+    .principal-p {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .html-box {
+        width: 90%;
+    }
+
+    .css-box {
+        width: 90%;
+    }
+
+    .js-box {
+        width: 90%;
     }
 }
