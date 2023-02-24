@@ -154,12 +154,48 @@ SECTION - PRINCIPAL
 }
 
 .principal-p {
+    margin-top: 20px;
     display: flex;
-    flex-wrap: wrap;
 }
 
-.principal-p p {
-    width: 48%;
-    margin-right: 1%;
-    margin-left: 1%;
+.html-box {
+    padding: 20px;
+    border: 2px solid black;
+    width: 32%;
+    margin: auto;
+}
+
+#html {
+    width: 100px;
+    height: 100px;
+    display: block;
+    margin: auto;
+}
+
+.css-box {
+    padding: 20px;
+    border: 2px solid black;
+    width: 32%;
+    margin: auto;
+}
+
+#css {
+    width: 100px;
+    height: 100px;
+    display: block;
+    margin: auto;
+}
+
+.js-box {
+    padding: 20px;
+    border: 2px solid black;
+    width: 32%;
+    margin: auto;
+}
+
+#js {
+    width: 180px;
+    height: 100px;
+    display: block;
+    margin: auto;
 }
