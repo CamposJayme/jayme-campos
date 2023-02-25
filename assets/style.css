@@ -199,3 +199,17 @@ SECTION - PRINCIPAL
     display: block;
     margin: auto;
 }
+
+.english-box {
+    padding: 20px;
+    border: 2px solid black;
+    width: 32%;
+    margin: auto;
+}
+
+#en-flag {
+    width: 130px;
+    height: 100px;
+    display: block;
+    margin: auto;
+}
