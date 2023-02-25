@@ -213,3 +213,9 @@ SECTION - PRINCIPAL
     display: block;
     margin: auto;
 }
+
+.projects {
+    max-width: 1024px;
+    padding: 0 2%;
+    margin: 0 auto;
+}
